@@ -27,3 +27,12 @@
 ## Edge Case
 
 If a student attempts to mark a task as completed that no longer exists, the system should display an error message and prevent the action.
+
+![Class Diagram](Class_diagram.png)
+
+
+## Modeling Decision
+
+- Composition (Dashboard → TaskList)
+  - A TaskList cannot exist without a Dashboard.
+  - If Dashboard is deleted, TaskList is deleted as well.
