@@ -1,4 +1,4 @@
-#Use Case Diagram#
+# Use Case Diagram #
 ![Use Case Diagram](UML.png)
 
 ## Actors
@@ -29,7 +29,7 @@
 
 If a student attempts to mark a task as completed that no longer exists, the system should display an error message and prevent the action.
 
-#Class Diagram#
+# Class Diagram #
 ![Class Diagram](Class_diagram.png)
 
 
