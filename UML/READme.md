@@ -2,10 +2,8 @@
 
 ## Actors
 
-- **Student** – Primary user who manages personal study tasks.
-- **Admin** – Secondary user responsible for administrative actions such as managing users.
-
----
+- Student – Primary user who manages personal study tasks.
+- Admin – Secondary user responsible for administrative actions such as managing users.
 
 ## Use Cases
 
@@ -18,17 +16,13 @@
 ### Admin
 - Manage Users – Allows administrative control over user accounts.
 
----
-
 ## Relationships
 
-- **Add Task** includes **Enter Task Details**  
+- "Add Task" includes "Enter Task Details"  
   The system requires task details (e.g., title, due date) whenever a task is created.
 
-- **Search Task** extends **View Dashboard**  
+- "Search Task" extends "View Dashboard"  
   Searching is an optional extension of viewing the dashboard.
-
----
 
 ## Edge Case
 
